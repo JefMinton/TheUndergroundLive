@@ -45,7 +45,7 @@ python -m http.server 8000
 
 ### Updating Workshop Information
 
-To add or modify workshops, edit the `index.html` file and locate the workshops section (around line 115). Each workshop is contained in a `workshop-card` div. You can:
+To add or modify workshops, edit the `index.html` file and locate the workshops section (starting around line 84). Each workshop is contained in a `workshop-card` div. You can:
 - Update workshop titles and descriptions
 - Change dates from "Coming Soon" to actual dates
 - Add new workshop cards by copying the existing structure
@@ -53,7 +53,7 @@ To add or modify workshops, edit the `index.html` file and locate the workshops 
 
 ### Updating Venue Information
 
-Venue details can be updated in the contact section (around line 185) and about section (around line 50).
+Venue details can be updated in the contact section (starting around line 140) and about section (starting around line 42).
 
 ## Browser Compatibility
 
