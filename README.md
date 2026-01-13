@@ -2,6 +2,12 @@
 
 Official website for The Underground Live, a premier live music venue in Camp Hill, PA.
 
+## 🌐 Live Website
+
+**Deployed at:** `https://jefminton.github.io/TheUndergroundLive/`
+
+The site is automatically deployed to GitHub Pages via GitHub Actions whenever changes are pushed to the main branch or this PR branch.
+
 ## About The Venue
 
 The Underground Live is located at 1104 Carlisle Rd, Camp Hill, PA 17011. We are a community-focused music venue supporting local musicians and hosting unforgettable concerts featuring diverse genres from rock and blues to metal and alternative.
@@ -62,6 +68,21 @@ This website works on all modern browsers:
 - Firefox (latest)
 - Safari (latest)
 - Mobile browsers
+
+## 🚀 Deployment
+
+This site is configured for automatic deployment to GitHub Pages:
+
+1. **Automatic Deployment**: The site deploys automatically when changes are pushed to the main branch or PR branch
+2. **GitHub Actions**: Uses the `.github/workflows/deploy-pages.yml` workflow
+3. **Live URL**: Once deployed, the site will be available at `https://jefminton.github.io/TheUndergroundLive/`
+
+### Manual Deployment
+
+To enable GitHub Pages manually (first-time setup):
+1. Go to repository Settings → Pages
+2. Under "Build and deployment", select "GitHub Actions" as the source
+3. The workflow will automatically deploy on the next push
 
 ## Social Media
 
